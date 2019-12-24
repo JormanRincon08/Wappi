@@ -1,0 +1,59 @@
+group 'com.automationpractice.wappi'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'java-library'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+apply plugin: 'org.sonarqube'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+buildscript {
+    repositories {
+       jcenter()
+    }
+    
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.82")
+        classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2")
+    }
+}
+
+
+ext {
+    serenityVersion = '2.0.82'
+    serenityCucumberVersion = '1.9.45'
+    apachePoiVersion = '3.17'
+    jacobVersion = '1.14.3'
+    log4jVersion = '1.2.17'
+    junitVersion= '4.12'
+    assertjCoreVersion = '3.9.1'
+    slf4jSimpleVersion = '1.7.25'
+}
+
+dependencies {
+    compile group: 'net.serenity-bdd', name: 'serenity-gradle-plugin', version: serenityVersion
+
+    implementation group: 'net.serenity-bdd', name: 'serenity-core', version: serenityVersion
+    implementation group: 'net.serenity-bdd', name: 'serenity-junit', version: serenityVersion
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: serenityVersion
+    implementation group: 'net.serenity-bdd', name: 'serenity-cucumber', version: serenityCucumberVersion
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: apachePoiVersion
+    implementation group: 'log4j', name: 'log4j', version: log4jVersion
+    implementation group: 'junit', name: 'junit', version: junitVersion
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: slf4jSimpleVersion
+}
+
+task copyDependencies(type: Copy) {
+   from configurations.default
+   into 'build/libs/'
+}
+
+gradle.startParameter.continueOnFailure = true
