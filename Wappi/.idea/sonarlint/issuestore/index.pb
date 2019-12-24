@@ -39,3 +39,5 @@ Bsrc/main/java/com/automationpractice/wappi/interactions/Login.java,a\1\a180e94
 Osrc/main/java/com/automationpractice/wappi/userinterface/general/LoginPage.java,7\4\74d524d64ccaea21477e2aef18ec0fbb79543daf
 Œ
 \src/test/java/com/automationpractice/wappi/stepdefinitions/LoginAndLogoutStepDefinition.java,7\f\7f4a7303cbdca56aeb99b93db8d81ef7570edf84
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35

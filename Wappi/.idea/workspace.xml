@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0c98cda-6d9d-4823-b980-94c4a285f56f" name="Default Changelist" comment="" />
+    <list default="true" id="d0c98cda-6d9d-4823-b980-94c4a285f56f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.log" beforeDir="false" afterPath="$PROJECT_DIR$/example.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/example.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/loginandlogout/LoginTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/loginandlogout/LoginTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/general/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/general/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber_json/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber_json/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8285b13af57a2402f4599782414bb81dc28af51d0244644590c8d382a8c0ec99.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8285b13af57a2402f4599782414bb81dc28af51d0244644590c8d382a8c0ec99.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8285b13af57a2402f4599782414bb81dc28af51d0244644590c8d382a8c0ec99.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8285b13af57a2402f4599782414bb81dc28af51d0244644590c8d382a8c0ec99.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8285b13af57a2402f4599782414bb81dc28af51d0244644590c8d382a8c0ec99_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8285b13af57a2402f4599782414bb81dc28af51d0244644590c8d382a8c0ec99_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-ed4e42c12a59b775c974506167ca6ca7d8e94c72391c5a92353a1f7f9249ea6c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-ed4e42c12a59b775c974506167ca6ca7d8e94c72391c5a92353a1f7f9249ea6c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ed4e42c12a59b775c974506167ca6ca7d8e94c72391c5a92353a1f7f9249ea6c.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ed4e42c12a59b775c974506167ca6ca7d8e94c72391c5a92353a1f7f9249ea6c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ed4e42c12a59b775c974506167ca6ca7d8e94c72391c5a92353a1f7f9249ea6c.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ed4e42c12a59b775c974506167ca6ca7d8e94c72391c5a92353a1f7f9249ea6c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ed4e42c12a59b775c974506167ca6ca7d8e94c72391c5a92353a1f7f9249ea6c_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ed4e42c12a59b775c974506167ca6ca7d8e94c72391c5a92353a1f7f9249ea6c_screenshots.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +35,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1V2Dbwx6nkZthJTWiHyV6PtN3J5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,7 +47,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/automationpractice/shopping/questions" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
@@ -134,48 +155,65 @@
     </state>
     <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576453172074" />
     <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1577162765604" />
-    <state width="431" height="466" key="DebuggerActiveHint" timestamp="1577164936279">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="449" height="487" key="DebuggerActiveHint" timestamp="1577190552417">
+      <screen x="1366" y="-188" width="1600" height="860" />
     </state>
+    <state width="449" height="487" key="DebuggerActiveHint/0.0.1366.728/1366.-188.1600.860@1366.-188.1600.860" timestamp="1577190552417" />
     <state width="431" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1577164936279" />
-    <state width="1493" height="252" key="GridCell.Tab.0.bottom" timestamp="1577165173772">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1557" height="266" key="GridCell.Tab.0.bottom" timestamp="1577192273546">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1557" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-188.1600.860@1366.-188.1600.860" timestamp="1577191893461" />
+    <state width="1557" height="266" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577192273546" />
     <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776919" />
     <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state width="1493" height="252" key="GridCell.Tab.0.center" timestamp="1577165173771">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1557" height="266" key="GridCell.Tab.0.center" timestamp="1577192273545">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1557" height="215" key="GridCell.Tab.0.center/0.0.1366.728/1366.-188.1600.860@1366.-188.1600.860" timestamp="1577191893461" />
+    <state width="1557" height="266" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577192273545" />
     <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776918" />
     <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577165173771" />
-    <state width="1493" height="252" key="GridCell.Tab.0.left" timestamp="1577165173771">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1557" height="266" key="GridCell.Tab.0.left" timestamp="1577192273545">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1557" height="215" key="GridCell.Tab.0.left/0.0.1366.728/1366.-188.1600.860@1366.-188.1600.860" timestamp="1577191893460" />
+    <state width="1557" height="266" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577192273545" />
     <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776918" />
     <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577165173771" />
-    <state width="1493" height="252" key="GridCell.Tab.0.right" timestamp="1577165173771">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1557" height="266" key="GridCell.Tab.0.right" timestamp="1577192273546">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1557" height="215" key="GridCell.Tab.0.right/0.0.1366.728/1366.-188.1600.860@1366.-188.1600.860" timestamp="1577191893461" />
+    <state width="1557" height="266" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577192273546" />
     <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776918" />
     <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577165173771" />
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1577165173772">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1557" height="266" key="GridCell.Tab.1.bottom" timestamp="1577192273548">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1557" height="266" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-188.1600.860@1366.-188.1600.860" timestamp="1577190638915" />
+    <state width="1557" height="266" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577192273548" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776919" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1577165173772">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1557" height="266" key="GridCell.Tab.1.center" timestamp="1577192273547">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1557" height="266" key="GridCell.Tab.1.center/0.0.1366.728/1366.-188.1600.860@1366.-188.1600.860" timestamp="1577190638915" />
+    <state width="1557" height="266" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577192273547" />
     <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776919" />
     <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1577165173772">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1557" height="266" key="GridCell.Tab.1.left" timestamp="1577192273547">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1557" height="266" key="GridCell.Tab.1.left/0.0.1366.728/1366.-188.1600.860@1366.-188.1600.860" timestamp="1577190638915" />
+    <state width="1557" height="266" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577192273547" />
     <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776919" />
     <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1577165173772">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1557" height="266" key="GridCell.Tab.1.right" timestamp="1577192273547">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1557" height="266" key="GridCell.Tab.1.right/0.0.1366.728/1366.-188.1600.860@1366.-188.1600.860" timestamp="1577190638915" />
+    <state width="1557" height="266" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577192273547" />
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776919" />
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1577156517078">
@@ -208,7 +246,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/loginandlogout/LoginTask.java</url>
-          <line>23</line>
+          <line>27</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
