@@ -26,15 +26,8 @@ public class LoginTask implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         User user = transposeDataTable(User.class, credentials);
-        actor.attemptsTo(
-                WaitUntil.angularRequestsHaveFinished(),
-                Enter.theValue(user.getUserName()).into(USER_NAME),
-                Enter.theValue(user.getPassword()).into(PASSWORD),
-                Click.on(SUBMIT_BUTTON)
-        );
-        //actor.attemptsTo(loginWith(user));
-        //loginWith(user);
-        waitForSomeTime(10);
+        actor.attemptsTo(loginWith(user));
+        waitForSomeTime(3);
     }
 
     public static LoginTask inLoginPageEnterThe(DataTable credentials) {

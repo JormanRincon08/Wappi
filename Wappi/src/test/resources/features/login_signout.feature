@@ -8,7 +8,7 @@ Feature: Login and sign out
       | userName | <userName> |
       | password | <password> |
     And I close the session
-    Then I validate the sesion closure
+    Then I validate the session closure
 
     Examples:
       | userName      | password      |
@@ -19,8 +19,8 @@ Feature: Login and sign out
     When I enter my credentials
       | userName | <userName> |
       | password | <password> |
-    Then I validate the login fail
+    Then I validate the login fail with the message "<expectedResult>"
 
     Examples:
-      | userName | password |
-      | abcd     | abcd     |
+      | userName | password | expectedResult                                   |
+      | abcd     | abcd     | El usuario debe contener entre 6 y 20 caracteres |

@@ -6,20 +6,20 @@
         "before": [
           {
             "result": {
-              "duration": 15364891700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "OrderWithCouponStepDefinition.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1886351100,
+              "duration": 7672669500,
               "status": "passed"
             },
             "match": {
               "location": "LoginAndLogoutStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 540086100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderWithCouponStepDefinition.setup()"
             }
           }
         ],
@@ -32,7 +32,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15318167000,
+              "duration": 3866304600,
               "status": "passed"
             },
             "line": 7,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 6752300,
+              "duration": 3165415500,
               "status": "passed"
             },
             "line": 10,
@@ -70,13 +70,13 @@
           },
           {
             "result": {
-              "duration": 7004700,
+              "duration": 60585900,
               "status": "passed"
             },
             "line": 11,
-            "name": "I validate the sesion closure",
+            "name": "I validate the session closure",
             "match": {
-              "location": "LoginAndLogoutStepDefinition.iValidateTheSesionClosure()"
+              "location": "LoginAndLogoutStepDefinition.iValidateTheSessionClosure()"
             },
             "keyword": "Then "
           }
@@ -91,20 +91,20 @@
         "before": [
           {
             "result": {
-              "duration": 10697341500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "OrderWithCouponStepDefinition.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1561766600,
+              "duration": 6438308900,
               "status": "passed"
             },
             "match": {
               "location": "LoginAndLogoutStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 489796900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderWithCouponStepDefinition.setup()"
             }
           }
         ],
@@ -117,7 +117,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12233387000,
+              "duration": 3580421700,
               "status": "passed"
             },
             "line": 19,
@@ -143,13 +143,19 @@
           },
           {
             "result": {
-              "duration": 7035500,
+              "duration": 39140000,
               "status": "passed"
             },
             "line": 22,
-            "name": "I validate the login fail",
+            "name": "I validate the login fail with the message \"El usuario debe contener entre 6 y 20 caracteres\"",
             "match": {
-              "location": "LoginAndLogoutStepDefinition.iValidateTheLoginFail()"
+              "arguments": [
+                {
+                  "val": "El usuario debe contener entre 6 y 20 caracteres",
+                  "offset": 44
+                }
+              ],
+              "location": "LoginAndLogoutStepDefinition.iValidateTheLoginFailWithTheMessage(String)"
             },
             "keyword": "Then "
           }

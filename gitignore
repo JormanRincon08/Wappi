@@ -1,0 +1,48 @@
+#Intellij
+*/.idea/
+
+#Java
+*/build/
+*/out/
+*/history/
+
+#Serenity
+*/target/
+
+#Gradle
+*/.gradle/
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.edp
+
+
+#Directorios de pruebas automaticas ScreenPlay
+*/Wappi/bin
+*/Wappi/target/site/serenity/*
+*/Wappi/target/cucumber_json/*
+*/Wappi/target/
+
+
+#Log Files
+Wappi/example.log
+Wappi/example.log.1
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*

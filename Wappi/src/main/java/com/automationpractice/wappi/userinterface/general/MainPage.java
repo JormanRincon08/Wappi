@@ -12,7 +12,7 @@ public class MainPage extends PageObject {
     public static final Target PROFILE = Target.the("Profile").located(By.id("nav-bar-profile"));
 
     public static final Target GET_WELCOME_COUPON = Target.the("Get Welcome Coupon").located(By.id("welcome-coupon"));
-    public static final Target LOGOUT = Target.the("Logout").located(By.id("nav-bar-logout"));
+    public static final Target LOGOUT = Target.the("Logout").located(By.xpath("(//a[@id='nav-bar-logout'])[2]"));
 
     public static final Target DATE_ORDER_COLUMN = Target.the("Date Order").located(By.id("date-order"));
     public static final Target PRICE_ORDER_COLUMN = Target.the("Price Order").located(By.id("price-order"));
