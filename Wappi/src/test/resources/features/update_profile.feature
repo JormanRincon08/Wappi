@@ -1,38 +1,24 @@
 #Author: jorman28@gmail.com
-#Feature: Create An Account
-  #I want to register on the page to make purchases
-#
-  #@Successfully
-  #Scenario Outline: Successful User Registration
-    #Given that I want to enter the registration section
-    #When enter the email "<email>" to register
-    #And I enter my personal information
-      #| title            | <title>            |
-      #| firstName        | <firstName>        |
-      #| lastName         | <lastName>         |
-      #| email            | <email>            |
-      #| password         | <password>         |
-      #| dateOfBirthDay   | <dateOfBirthDay>   |
-      #| dateOfBirthMonth | <dateOfBirthMonth> |
-      #| dateOfBirthYear  | <dateOfBirthYear>  |
-      #| signNewsletter   | <signNewsletter>   |
-      #| receiveOffers    | <receiveOffers>    |
-    #And enter my address information
-      #| firstNameAddress      | <firstNameAddress>      |
-      #| lastNameAddress       | <lastNameAddress>       |
-      #| company               | <company>               |
-      #| address               | <address>               |
-      #| address2              | <address2>              |
-      #| city                  | <city>                  |
-      #| state                 | <state>                 |
-      #| zipPostalCode         | <zipPostalCode>         |
-      #| country               | <country>               |
-      #| additionalInformation | <additionalInformation> |
-      #| homePhone             | <homePhone>             |
-      #| mobilePhone           | <mobilePhone>           |
-      #| addressAlias          | <addressAlias>          |
-    #Then I must validate the expected result "<expectedResult>"
-#
-    #Examples: 
-      #| title | firstName | lastName | email              | password | dateOfBirthDay | dateOfBirthMonth | dateOfBirthYear | signNewsletter | receiveOffers | firstNameAddress | lastNameAddress | company    | address         | address2 | city  | state   | zipPostalCode | country       | additionalInformation                     | homePhone | mobilePhone | addressAlias       | expectedResult |
-      ##@externaldata@./src/test/resources/datadriven/CreateAnAccount.xlsx@UserRegister
+Feature: Update Profile
+  I want to update my profile data
+
+  @Successfully
+  Scenario Outline: Update Profile Data
+    Given that I want to enter the page
+      | userName | <userName> |
+      | password | <password> |
+    When I enter the update profile section
+    And I enter the data to modify
+      | image          | <image>          |
+      | firstName      | <firstName>      |
+      | lastName       | <lastName>       |
+      | bornDate       | <bornDate>       |
+      | country        | <country>        |
+      | gender         | <gender>         |
+      | expectedResult | <expectedResult> |
+    Then I must validate the expected result of the update "<expectedResult>"
+
+    Examples:
+      | userName      | password      | image                               | firstName | lastName | bornDate | country        | gender    | expectedResult          |
+      ##@externaldata@./src/test/resources/datadriven/DataDriven.xlsx@Profile
+      |Administrador|Administrador|‪C:\Users\jorma\Desktop\img.jpg|Jorman|Rincón|06/11/1993|Estados Unidos|Masculino|Registrado exitosamente|

@@ -1,4 +1,4 @@
-package com.automationpractice.wappi.models.createanaccount;
+package com.automationpractice.wappi.models.orderwithcoupon;
 
 public class PersonalInformation {
 

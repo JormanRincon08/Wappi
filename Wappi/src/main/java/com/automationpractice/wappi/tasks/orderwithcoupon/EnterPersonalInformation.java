@@ -1,12 +1,11 @@
 package com.automationpractice.wappi.tasks.orderwithcoupon;
 
 import static com.automationpractice.wappi.tasks.general.TakeScreenshot.takeScreenshot;
-import static com.automationpractice.wappi.userinterface.createanaccount.PersonalInformationPage.*;
-import static com.automationpractice.wappi.utils.util.Const.CHECK;
-import static com.automationpractice.wappi.utils.util.Const.MR;
+import static com.automationpractice.wappi.userinterface.orderwithcoupon.PersonalInformationPage.*;
+import static com.automationpractice.wappi.utils.util.Const.*;
 import static com.automationpractice.wappi.utils.util.TransposeDataTable.transposeDataTable;
 
-import com.automationpractice.wappi.models.createanaccount.PersonalInformation;
+import com.automationpractice.wappi.models.orderwithcoupon.PersonalInformation;
 
 import cucumber.api.DataTable;
 import net.serenitybdd.screenplay.Actor;
@@ -29,7 +28,7 @@ public class EnterPersonalInformation implements Task {
         PersonalInformation personalInformationModel = transposeDataTable(PersonalInformation.class, personalInformation);
         actor.attemptsTo(
                 takeScreenshot("Registration Personal Information Page"),
-                Check.whether(personalInformationModel.getTitle().trim().toLowerCase().equalsIgnoreCase(MR.toLowerCase()))
+                Check.whether(personalInformationModel.getTitle().trim().toLowerCase().equalsIgnoreCase(TRUE.toLowerCase()))
                         .andIfSo(
                                 Click.on(TITLE_MR))
                         .otherwise(

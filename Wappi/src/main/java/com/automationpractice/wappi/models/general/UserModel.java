@@ -1,16 +1,11 @@
 package com.automationpractice.wappi.models.general;
 
-public class User {
+public class UserModel {
 
 	private final String userName;
 	private final String password;
 
-	public User() {
-		this.userName = "";
-		this.password = "";
-	}
-
-	public User(String userName, String password) {
+	public UserModel(String userName, String password) {
 		this.userName = userName;
 		this.password = password;
 	}

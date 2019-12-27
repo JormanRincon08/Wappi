@@ -6,7 +6,16 @@
         "before": [
           {
             "result": {
-              "duration": 7672669500,
+              "duration": 7582744999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UpdateProfileStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 499907700,
               "status": "passed"
             },
             "match": {
@@ -15,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 540086100,
+              "duration": 489597600,
               "status": "passed"
             },
             "match": {
@@ -23,22 +32,22 @@
             }
           }
         ],
-        "line": 15,
-        "name": "Login Success",
+        "line": 24,
+        "name": "Update Profile Data",
         "description": "",
-        "id": "login-and-sign-out;login-success;;2",
+        "id": "update-profile;update-profile-data;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3866304600,
+              "duration": 3853150900,
               "status": "passed"
             },
             "line": 7,
-            "name": "I enter my credentials",
+            "name": "that I want to enter the page",
             "match": {
-              "location": "LoginAndLogoutStepDefinition.iEnterMyCredentials(DataTable)"
+              "location": "UpdateProfileStepDefinition.thatIWantToEnterThePage(DataTable)"
             },
             "rows": [
               {
@@ -54,29 +63,91 @@
                 ]
               }
             ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2170376100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the update profile section",
+            "match": {
+              "location": "UpdateProfileStepDefinition.iEnterTheUpdateProfileSection()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3165415500,
+              "duration": 5050948399,
               "status": "passed"
             },
-            "line": 10,
-            "name": "I close the session",
+            "line": 11,
+            "name": "I enter the data to modify",
             "match": {
-              "location": "LoginAndLogoutStepDefinition.iCloseTheSession()"
+              "location": "UpdateProfileStepDefinition.iEnterTheDataToModify(DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "image",
+                  "‪C:\\Users\\jorma\\Desktop\\img.jpg"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "Jorman"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Rincón"
+                ]
+              },
+              {
+                "cells": [
+                  "bornDate",
+                  "06/11/1993"
+                ]
+              },
+              {
+                "cells": [
+                  "country",
+                  "Estados Unidos"
+                ]
+              },
+              {
+                "cells": [
+                  "gender",
+                  "Masculino"
+                ]
+              },
+              {
+                "cells": [
+                  "expectedResult",
+                  "Registrado exitosamente"
+                ]
+              }
+            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 60585900,
+              "duration": 3828001,
               "status": "passed"
             },
-            "line": 11,
-            "name": "I validate the session closure",
+            "line": 19,
+            "name": "I must validate the expected result of the update \"Registrado exitosamente\"",
             "match": {
-              "location": "LoginAndLogoutStepDefinition.iValidateTheSessionClosure()"
+              "arguments": [
+                {
+                  "val": "Registrado exitosamente",
+                  "offset": 51
+                }
+              ],
+              "location": "UpdateProfileStepDefinition.iMustValidateTheExpectedResultOfTheUpdate(String)"
             },
             "keyword": "Then "
           }
@@ -86,92 +157,13 @@
             "name": "@Successfully"
           }
         ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 6438308900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginAndLogoutStepDefinition.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 489796900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "OrderWithCouponStepDefinition.setup()"
-            }
-          }
-        ],
-        "line": 26,
-        "name": "Login Fail",
-        "description": "",
-        "id": "login-and-sign-out;login-fail;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3580421700,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "I enter my credentials",
-            "match": {
-              "location": "LoginAndLogoutStepDefinition.iEnterMyCredentials(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "userName",
-                  "abcd"
-                ]
-              },
-              {
-                "cells": [
-                  "password",
-                  "abcd"
-                ]
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 39140000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "I validate the login fail with the message \"El usuario debe contener entre 6 y 20 caracteres\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "El usuario debe contener entre 6 y 20 caracteres",
-                  "offset": 44
-                }
-              ],
-              "location": "LoginAndLogoutStepDefinition.iValidateTheLoginFailWithTheMessage(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Fail"
-          }
-        ]
       }
     ],
-    "name": "Login and sign out",
-    "description": "  I want to login in the wappi page",
-    "id": "login-and-sign-out",
+    "name": "Update Profile",
+    "description": "  I want to update my profile data",
+    "id": "update-profile",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/login_signout.feature",
+    "uri": "src/test/resources/features/update_profile.feature",
     "tags": []
   }
 ]

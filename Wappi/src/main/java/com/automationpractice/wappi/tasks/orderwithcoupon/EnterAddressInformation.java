@@ -1,10 +1,10 @@
 package com.automationpractice.wappi.tasks.orderwithcoupon;
 
 import static com.automationpractice.wappi.tasks.general.TakeScreenshot.takeScreenshot;
-import static com.automationpractice.wappi.userinterface.createanaccount.YourAddressInformationPage.*;
+import static com.automationpractice.wappi.userinterface.orderwithcoupon.YourAddressInformationPage.*;
 import static com.automationpractice.wappi.utils.util.TransposeDataTable.transposeDataTable;
 
-import com.automationpractice.wappi.models.createanaccount.YourAddressInformation;
+import com.automationpractice.wappi.models.orderwithcoupon.YourAddressInformation;
 
 import cucumber.api.DataTable;
 import net.serenitybdd.screenplay.Actor;

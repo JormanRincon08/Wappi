@@ -1,17 +1,12 @@
 package com.automationpractice.wappi.tasks.loginandlogout;
 
-import com.automationpractice.wappi.interactions.Login;
-import com.automationpractice.wappi.models.createanaccount.PersonalInformation;
-import com.automationpractice.wappi.models.general.User;
+import com.automationpractice.wappi.models.general.UserModel;
 import cucumber.api.DataTable;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static com.automationpractice.wappi.interactions.Login.loginWith;
-import static com.automationpractice.wappi.userinterface.general.LoginPage.*;
+import static com.automationpractice.wappi.utils.util.Const.THREE_SECONDS;
 import static com.automationpractice.wappi.utils.util.TransposeDataTable.transposeDataTable;
 import static com.automationpractice.wappi.utils.util.Util.waitForSomeTime;
 
@@ -25,9 +20,9 @@ public class LoginTask implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        User user = transposeDataTable(User.class, credentials);
+        UserModel user = transposeDataTable(UserModel.class, credentials);
         actor.attemptsTo(loginWith(user));
-        waitForSomeTime(3);
+        waitForSomeTime(THREE_SECONDS);
     }
 
     public static LoginTask inLoginPageEnterThe(DataTable credentials) {
