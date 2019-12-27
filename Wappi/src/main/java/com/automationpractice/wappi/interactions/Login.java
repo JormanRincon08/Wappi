@@ -3,9 +3,8 @@ package com.automationpractice.wappi.interactions;
 import static com.automationpractice.wappi.userinterface.general.LoginPage.USER_NAME;
 import static com.automationpractice.wappi.userinterface.general.LoginPage.PASSWORD;
 import static com.automationpractice.wappi.userinterface.general.LoginPage.SUBMIT_BUTTON;
-import static com.automationpractice.wappi.utils.util.Util.waitForSomeTime;
 
-import com.automationpractice.wappi.models.general.User;
+import com.automationpractice.wappi.models.general.UserModel;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
@@ -14,9 +13,9 @@ import net.serenitybdd.screenplay.actions.Enter;
 
 public class Login implements Interaction {
 
-    private User user;
+    private UserModel user;
 
-    public Login(User user){
+    public Login(UserModel user){
         this.user = user;
     }
 
@@ -29,7 +28,7 @@ public class Login implements Interaction {
         );
     }
 
-    public static Login loginWith(User user){
+    public static Login loginWith(UserModel user){
         return new Login(user);
     }
 }

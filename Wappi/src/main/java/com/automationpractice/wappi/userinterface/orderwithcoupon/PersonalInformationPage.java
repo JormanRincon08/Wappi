@@ -1,4 +1,4 @@
-package com.automationpractice.wappi.userinterface.createanaccount;
+package com.automationpractice.wappi.userinterface.orderwithcoupon;
 
 import org.openqa.selenium.By;
 

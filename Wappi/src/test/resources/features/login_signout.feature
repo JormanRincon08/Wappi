@@ -15,12 +15,13 @@ Feature: Login and sign out
       | Administrador | Administrador |
 
   @Fail
-  Scenario Outline: Login Fail
+  Scenario Outline: Login Fail Username required
     When I enter my credentials
       | userName | <userName> |
       | password | <password> |
-    Then I validate the login fail with the message "<expectedResult>"
+    Then I validate the username required login fail with the message "<expectedResult>"
 
     Examples:
       | userName | password | expectedResult                                   |
       | abcd     | abcd     | El usuario debe contener entre 6 y 20 caracteres |
+      |          | abcd     | El usuario debe contener entre 6 y 20 caracteres |

@@ -7,9 +7,9 @@ import net.serenitybdd.screenplay.targets.Target;
 
 public class MainPage extends PageObject {
 
-    public static final Target START = Target.the("Start").located(By.id("nav-bar-home"));
-    public static final Target COUPONS = Target.the("Coupons").located(By.id("nav-bar-coupons"));
-    public static final Target PROFILE = Target.the("Profile").located(By.id("nav-bar-profile"));
+    public static final Target START = Target.the("Start").located(By.xpath("(//a[@id='nav-bar-home'])[2]"));
+    public static final Target COUPONS = Target.the("Coupons").located(By.xpath("(//a[@id='nav-bar-coupons'])[2]"));
+    public static final Target PROFILE = Target.the("Profile").located(By.xpath("(//a[@id='nav-bar-profile'])[2]"));
 
     public static final Target GET_WELCOME_COUPON = Target.the("Get Welcome Coupon").located(By.id("welcome-coupon"));
     public static final Target LOGOUT = Target.the("Logout").located(By.xpath("(//a[@id='nav-bar-logout'])[2]"));

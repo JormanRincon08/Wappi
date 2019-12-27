@@ -1,6 +1,6 @@
 package com.automationpractice.wappi.questions;
 
-import static com.automationpractice.wappi.userinterface.createanaccount.PersonalInformationPage.ERROR_REGISTER_LABEL;
+import static com.automationpractice.wappi.userinterface.orderwithcoupon.PersonalInformationPage.ERROR_REGISTER_LABEL;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;

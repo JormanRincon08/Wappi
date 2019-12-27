@@ -1,35 +1,31 @@
+DEBUG pool-2-thread-1 freemarker.cache - Couldn't find template in cache for "freemarker/default.ftl"("en_GB", windows-1252, parsed); will try to load it.
+DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/default_en_GB.ftl"): Not found
+DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/default_en.ftl"): Not found
+DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/default.ftl"): Found
+DEBUG pool-2-thread-1 freemarker.cache - Loading template for "freemarker/default.ftl"("en_GB", windows-1252, parsed) from "jar:file:/C:/Users/jorma/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/2.0.82/37c85dbd3948c52198bb5eb9becf675ecd8d7c73/serenity-report-resources-2.0.82.jar!/freemarker/default.ftl"
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/libraries/favicon.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/libraries/common.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/libraries/font-awesome.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/libraries/jquery.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/libraries/chartist.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/libraries/treeview.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/libraries/datatables.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/libraries/css.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.
+DEBUG pool-2-thread-1 freemarker.cache - Couldn't find template in cache for "freemarker/libraries/jquery-ui.ftl"("en_GB", windows-1252, parsed); will try to load it.
+DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/libraries/jquery-ui_en_GB.ftl"): Not found
+DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/libraries/jquery-ui_en.ftl"): Not found
+DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/libraries/jquery-ui.ftl"): Found
+DEBUG pool-2-thread-1 freemarker.cache - Loading template for "freemarker/libraries/jquery-ui.ftl"("en_GB", windows-1252, parsed) from "jar:file:/C:/Users/jorma/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/2.0.82/37c85dbd3948c52198bb5eb9becf675ecd8d7c73/serenity-report-resources-2.0.82.jar!/freemarker/libraries/jquery-ui.ftl"
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/libraries/datatables.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.
+DEBUG pool-2-thread-1 freemarker.cache - Couldn't find template in cache for "freemarker/libraries/imgpreview.ftl"("en_GB", windows-1252, parsed); will try to load it.
+DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/libraries/imgpreview_en_GB.ftl"): Not found
 DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/libraries/imgpreview_en.ftl"): Not found
-DEBUG pool-2-thread-2 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/libraries/imgpreview.ftl"): Found
-DEBUG pool-2-thread-2 freemarker.cache - Loading template for "freemarker/libraries/imgpreview.ftl"("en_GB", windows-1252, parsed) from "jar:file:/C:/Users/jorma/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/2.0.82/37c85dbd3948c52198bb5eb9becf675ecd8d7c73/serenity-report-resources-2.0.82.jar!/freemarker/libraries/imgpreview.ftl"
 DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/libraries/imgpreview.ftl"): Found
-DEBUG pool-2-thread-2 freemarker.cache - Couldn't find template in cache for "freemarker/components/report-data.ftl"("en_GB", windows-1252, parsed); will try to load it.
 DEBUG pool-2-thread-1 freemarker.cache - Loading template for "freemarker/libraries/imgpreview.ftl"("en_GB", windows-1252, parsed) from "jar:file:/C:/Users/jorma/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/2.0.82/37c85dbd3948c52198bb5eb9becf675ecd8d7c73/serenity-report-resources-2.0.82.jar!/freemarker/libraries/imgpreview.ftl"
-DEBUG pool-2-thread-2 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/report-data_en_GB.ftl"): Not found
 DEBUG pool-2-thread-1 freemarker.cache - Couldn't find template in cache for "freemarker/components/report-data.ftl"("en_GB", windows-1252, parsed); will try to load it.
-DEBUG pool-2-thread-2 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/report-data_en.ftl"): Not found
 DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/report-data_en_GB.ftl"): Not found
-DEBUG pool-2-thread-2 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/report-data.ftl"): Found
-DEBUG pool-2-thread-2 freemarker.cache - Loading template for "freemarker/components/report-data.ftl"("en_GB", windows-1252, parsed) from "jar:file:/C:/Users/jorma/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/2.0.82/37c85dbd3948c52198bb5eb9becf675ecd8d7c73/serenity-report-resources-2.0.82.jar!/freemarker/components/report-data.ftl"
 DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/report-data_en.ftl"): Not found
 DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/report-data.ftl"): Found
 DEBUG pool-2-thread-1 freemarker.cache - Loading template for "freemarker/components/report-data.ftl"("en_GB", windows-1252, parsed) from "jar:file:/C:/Users/jorma/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/2.0.82/37c85dbd3948c52198bb5eb9becf675ecd8d7c73/serenity-report-resources-2.0.82.jar!/freemarker/components/report-data.ftl"
-DEBUG pool-2-thread-1 freemarker.cache - Couldn't find template in cache for "freemarker/components/stacktrace.ftl"("en_GB", windows-1252, parsed); will try to load it.
-DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/stacktrace_en_GB.ftl"): Not found
-DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/stacktrace_en.ftl"): Not found
-DEBUG pool-2-thread-2 freemarker.cache - Couldn't find template in cache for "freemarker/components/stacktrace.ftl"("en_GB", windows-1252, parsed); will try to load it.
-DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/stacktrace.ftl"): Found
-DEBUG pool-2-thread-1 freemarker.cache - Loading template for "freemarker/components/stacktrace.ftl"("en_GB", windows-1252, parsed) from "jar:file:/C:/Users/jorma/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/2.0.82/37c85dbd3948c52198bb5eb9becf675ecd8d7c73/serenity-report-resources-2.0.82.jar!/freemarker/components/stacktrace.ftl"
-DEBUG pool-2-thread-2 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/stacktrace_en_GB.ftl"): Not found
-DEBUG pool-2-thread-2 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/stacktrace_en.ftl"): Not found
-DEBUG pool-2-thread-2 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/components/stacktrace.ftl"): Found
-DEBUG pool-2-thread-2 freemarker.cache - Loading template for "freemarker/components/stacktrace.ftl"("en_GB", windows-1252, parsed) from "jar:file:/C:/Users/jorma/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/2.0.82/37c85dbd3948c52198bb5eb9becf675ecd8d7c73/serenity-report-resources-2.0.82.jar!/freemarker/components/stacktrace.ftl"
-DEBUG pool-2-thread-1 freemarker.cache - Couldn't find template in cache for "freemarker/menu.ftl"("en_GB", windows-1252, parsed); will try to load it.
-DEBUG pool-2-thread-2 freemarker.cache - Couldn't find template in cache for "freemarker/menu.ftl"("en_GB", windows-1252, parsed); will try to load it.
-DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/menu_en_GB.ftl"): Not found
-DEBUG pool-2-thread-2 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/menu_en_GB.ftl"): Not found
-DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/menu_en.ftl"): Not found
-DEBUG pool-2-thread-2 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/menu_en.ftl"): Not found
-DEBUG pool-2-thread-1 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/menu.ftl"): Found
-DEBUG pool-2-thread-2 freemarker.cache - TemplateLoader.findTemplateSource("freemarker/menu.ftl"): Found
-DEBUG pool-2-thread-2 freemarker.cache - Loading template for "freemarker/menu.ftl"("en_GB", windows-1252, parsed) from "jar:file:/C:/Users/jorma/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/2.0.82/37c85dbd3948c52198bb5eb9becf675ecd8d7c73/serenity-report-resources-2.0.82.jar!/freemarker/menu.ftl"
-DEBUG pool-2-thread-1 freemarker.cache - Loading template for "freemarker/menu.ftl"("en_GB", windows-1252, parsed) from "jar:file:/C:/Users/jorma/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-report-resources/2.0.82/37c85dbd3948c52198bb5eb9becf675ecd8d7c73/serenity-report-resources-2.0.82.jar!/freemarker/menu.ftl"
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/components/stacktrace.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.
+DEBUG pool-2-thread-1 freemarker.cache - "freemarker/menu.ftl"("en_GB", windows-1252, parsed) cached copy not yet stale; using cached.

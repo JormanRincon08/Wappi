@@ -1,8 +1,8 @@
 package com.automationpractice.wappi.tasks.orderwithcoupon;
 
 import static com.automationpractice.wappi.tasks.general.TakeScreenshot.takeScreenshot;
-import static com.automationpractice.wappi.userinterface.createanaccount.EmailPage.EMAIL_ADDRESS;
-import static com.automationpractice.wappi.userinterface.createanaccount.EmailPage.SUBMIT_CREATE;
+import static com.automationpractice.wappi.userinterface.orderwithcoupon.EmailPage.EMAIL_ADDRESS;
+import static com.automationpractice.wappi.userinterface.orderwithcoupon.EmailPage.SUBMIT_CREATE;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

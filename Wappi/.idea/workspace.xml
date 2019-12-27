@@ -2,22 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c98cda-6d9d-4823-b980-94c4a285f56f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/interactions/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/questions/loginandlogout/LoginAndLogoutErrorResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/questions/loginandlogout/LoginAndLogoutResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/loginandlogout/LogoutTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/models/updateprofile/UpdateProfileModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/updateprofile/UpdateProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/updateprofile/UpdateProfileLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/updateprofile/UpdateProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/runners/UpdateProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/stepdefinitions/UpdateProfileStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71cd849df812c0d244b9a2b26bedb4085e336bb0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74d524d64ccaea21477e2aef18ec0fbb79543daf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74d524d64ccaea21477e2aef18ec0fbb79543daf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f4a7303cbdca56aeb99b93db8d81ef7570edf84" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f4a7303cbdca56aeb99b93db8d81ef7570edf84" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ceb9c93abc165e8f5c4a15278781101cca716ddc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ceb9c93abc165e8f5c4a15278781101cca716ddc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example.log" beforeDir="false" afterPath="$PROJECT_DIR$/example.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/example.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/interactions/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/interactions/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/models/createanaccount/PersonalInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/models/orderwithcoupon/PersonalInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/models/createanaccount/YourAddressInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/models/orderwithcoupon/YourAddressInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/models/general/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/models/general/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/questions/RegisterErrorResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/questions/RegisterErrorResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/questions/RegisterResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/questions/RegisterResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/loginandlogout/LoginTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/loginandlogout/LoginTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/general/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/general/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/loginandlogout/LogoutTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/loginandlogout/LogoutTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/orderwithcoupon/EnterAddressInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/orderwithcoupon/EnterAddressInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/orderwithcoupon/EnterEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/orderwithcoupon/EnterEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/orderwithcoupon/EnterPersonalInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/orderwithcoupon/EnterPersonalInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/createanaccount/EmailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/orderwithcoupon/EmailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/createanaccount/PersonalInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/orderwithcoupon/PersonalInformationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/createanaccount/YourAddressInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/orderwithcoupon/YourAddressInformationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/general/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/general/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/stepdefinitions/LoginAndLogoutStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/stepdefinitions/LoginAndLogoutStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/util/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/util/Const.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/datadriven/DataDriven.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/datadriven/DataDriven.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/login_signout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login_signout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/update_profile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/update_profile.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber_json/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber_json/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +73,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.automationpractice.wappi.questions.loginandlogout" />
-      <recent name="com.automationpractice.wappi.interactions" />
-      <recent name="com.automationpractice.wappi.tasks.loginandlogout" />
+      <recent name="com.automationpractice.wappi.userinterface.updateprofile" />
+      <recent name="com.automationpractice.wappi.tasks.updateprofile" />
       <recent name="com.automationpractice.wappi.runners" />
-      <recent name="com.automationpractice.shopping.questions" />
+      <recent name="com.automationpractice.wappi.stepdefinitions" />
+      <recent name="com.automationpractice.wappi.questions.loginandlogout" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Softka\Prueba\Shopping\src\main\java\com\automationpractice\shopping\questions" />
       <recent name="D:\Softka\Prueba\Shopping\src\main\java\com\automationpractice\shopping\utils\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginAndLogout">
+  <component name="RunManager" selected="Gradle.UpdateProfile">
     <configuration name="CreateAnAccountRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -92,6 +111,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.automationpractice.wappi.runners.LoginAndLogout&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateProfile" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.automationpractice.wappi.runners.UpdateProfile&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -143,73 +182,86 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1576446676664" />
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577418822482">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577418822482" />
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576456596654">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576456596654" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1577161459656">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1577414520516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576455536084" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577414520516" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577161459656" />
-    <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577405847372">
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577418725613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577405847372" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577418725613" />
+    <state x="349" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577412134968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577412134968" />
+    <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577414614806">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577414614806" />
     <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1577162765604" />
-    <state width="431" height="466" key="DebuggerActiveHint" timestamp="1577164936279">
+    <state width="480" height="466" key="DebuggerActiveHint" timestamp="1577418657699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="480" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577418657699" />
     <state width="431" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1577164936279" />
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1577408701995">
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1577421524324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577408701995" />
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577421524324" />
     <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577333444478" />
-    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1577408701995">
+    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1577421524324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577408701995" />
+    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577421524324" />
     <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577333444478" />
-    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1577408701994">
+    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1577421524324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577408701994" />
+    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577421524324" />
     <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577333444478" />
-    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1577408701995">
+    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1577421524324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577408701995" />
+    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577421524324" />
     <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577333444478" />
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1577165173772">
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1577418713193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776919" />
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577418713193" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1577165173772">
+    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1577418713193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776919" />
+    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577418713193" />
     <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1577165173772">
+    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1577418713193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776919" />
+    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577418713193" />
     <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1577165173772">
+    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1577418713193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576457776919" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577418713193" />
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1577156517078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576451455138" />
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577156517078" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1577403571535">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1577418806955">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577403571535" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577418806955" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577333134290" />
     <state x="462" y="17" width="611" height="789" key="find.popup" timestamp="1577158796741">
       <screen x="0" y="0" width="1536" height="824" />
@@ -220,6 +272,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1576446611757" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1577415013193">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577415013193" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -230,9 +286,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/loginandlogout/LoginTask.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/updateprofile/UpdateProfile.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
