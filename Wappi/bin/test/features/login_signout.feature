@@ -4,25 +4,24 @@ Feature: Login and sign out
 
   @Successfully
   Scenario Outline: Login Success
-    Given I want to login to the page
     When I enter my credentials
-      | user     | <user>     |
+      | userName | <userName> |
       | password | <password> |
     And I close the session
-    Then I validate the sesion closure
+    Then I validate the session closure
 
-    Examples: 
-      | user          | password      |
+    Examples:
+      | userName      | password      |
       | Administrador | Administrador |
 
   @Fail
-  Scenario Outline: Login Fail
-    Given I want to login to the page
+  Scenario Outline: Login Fail Username required
     When I enter my credentials
-      | user     | <user>     |
+      | userName | <userName> |
       | password | <password> |
-    Then I validate the login fail
+    Then I validate the username required login fail with the message "<expectedResult>"
 
-    Examples: 
-      | user | password |
-      | abcd | abcd     |
+    Examples:
+      | userName | password | expectedResult                                   |
+      | abcd     | abcd     | El usuario debe contener entre 6 y 20 caracteres |
+      |          | abcd     | El usuario debe contener entre 6 y 20 caracteres |
