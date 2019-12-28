@@ -5,14 +5,14 @@ import net.serenitybdd.screenplay.Task;
 
 import static com.automationpractice.wappi.interactions.Logout.logoutSession;
 import static com.automationpractice.wappi.utils.util.Const.THREE_SECONDS;
-import static com.automationpractice.wappi.utils.util.Util.waitForSomeTime;
+import static com.automationpractice.wappi.utils.util.Util.waitForSomeTimeUtil;
 
 public class LogoutTask implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(logoutSession());
-        waitForSomeTime(THREE_SECONDS);
+        waitForSomeTimeUtil(THREE_SECONDS);
     }
 
     public static LogoutTask inMainPageLogoutSession() {

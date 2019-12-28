@@ -1,6 +1,6 @@
 package com.automationpractice.wappi.interactions;
 
-import static com.automationpractice.wappi.utils.util.Util.waitForSomeTime;
+import static com.automationpractice.wappi.utils.util.Util.waitForSomeTimeUtil;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
@@ -15,7 +15,7 @@ public class WaitFor implements Interaction {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        waitForSomeTime(seconds);
+        waitForSomeTimeUtil(seconds);
     }
 
     public static WaitFor waitFor(int seconds){

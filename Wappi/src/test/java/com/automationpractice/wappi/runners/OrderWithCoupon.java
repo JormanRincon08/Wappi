@@ -10,7 +10,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 
 @RunWith(CustomRunner.class)
-@CucumberOptions(features = "src/test/resources/features/login_signout.feature",
+@CucumberOptions(features = "src/test/resources/features/order_with_coupon.feature",
 				 //tags = "@Fail",
 				 snippets = SnippetType.CAMELCASE, 
 				 plugin = { "json:target/cucumber_json/cucumber.json" }, 

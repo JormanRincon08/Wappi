@@ -4,20 +4,16 @@ import com.automationpractice.wappi.models.updateprofile.UpdateProfileModel;
 import cucumber.api.DataTable;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.*;
 import net.serenitybdd.screenplay.conditions.Check;
 
-import java.nio.file.Paths;
-
 import static com.automationpractice.wappi.tasks.general.TakeScreenshot.takeScreenshot;
-import static com.automationpractice.wappi.tasks.general.UploadFile.uploadFile;
 import static com.automationpractice.wappi.userinterface.updateprofile.UpdateProfilePage.*;
 import static com.automationpractice.wappi.utils.util.Const.MALE_VALUE;
 import static com.automationpractice.wappi.utils.util.Const.THREE_SECONDS;
 import static com.automationpractice.wappi.utils.util.TransposeDataTable.transposeDataTable;
 import static com.automationpractice.wappi.utils.util.Util.isNullOrEmpty;
-import static com.automationpractice.wappi.utils.util.Util.waitForSomeTime;
+import static com.automationpractice.wappi.utils.util.Util.waitForSomeTimeUtil;
 
 public class UpdateProfile implements Task {
     private DataTable userProfileInformation;
@@ -35,7 +31,7 @@ public class UpdateProfile implements Task {
 
                 Check.whether(isNullOrEmpty(updateProfileModel.getImage()))
                         .andIfSo(
-                                uploadFile(BrowseTheWeb.as(actor).getDriver(),"//input[@id='image']", updateProfileModel.getImage())
+                                //uploadFile(BrowseTheWeb.as(actor).getDriver(),"//input[@id='image']", updateProfileModel.getImage())
                                 //Upload.theFile(Paths.get(updateProfileModel.getImage())).to(IMAGE)
                                 //Enter.keyValues(updateProfileModel.getImage()).into(IMAGE)
                         ),
@@ -51,7 +47,7 @@ public class UpdateProfile implements Task {
                 takeScreenshot("Successful update data"),
                 Click.on(SAVE)
         );
-        waitForSomeTime(THREE_SECONDS);
+        waitForSomeTimeUtil(THREE_SECONDS);
     }
 
     public static UpdateProfile inProfilePageEnterThe(DataTable userProfileInformation) {
