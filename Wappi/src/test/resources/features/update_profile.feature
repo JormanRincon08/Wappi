@@ -3,7 +3,7 @@ Feature: Update Profile
   I want to update my profile data
 
   @Successfully
-  Scenario Outline: Update Profile Data
+  Scenario Outline: Successfully Update Profile Data
     Given that I want to enter the page
       | userName | <userName> |
       | password | <password> |

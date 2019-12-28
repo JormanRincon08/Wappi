@@ -21,6 +21,10 @@ public class Const {
 	public static final String MALE_VALUE = "Male";
 	public static final String FEMALE_VALUE = "Female";
 
+	public static final String SUNFLOWER_OIL_VALUE = "Aceite de Girasol";
+	public static final String HALVED_BREAD = "Pan tajado";
+	public static final String PREMIUM_HAM = "Jamón Premium";
+
 	private Const() {
 
 	}

@@ -6,14 +6,14 @@ import net.serenitybdd.screenplay.actions.Click;
 
 import static com.automationpractice.wappi.userinterface.general.MainPage.PROFILE;
 import static com.automationpractice.wappi.utils.util.Const.TWO_SECONDS;
-import static com.automationpractice.wappi.utils.util.Util.waitForSomeTime;
+import static com.automationpractice.wappi.utils.util.Util.waitForSomeTimeUtil;
 
 public class UpdateProfileLink implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Click.on(PROFILE));
-        waitForSomeTime(TWO_SECONDS);
+        waitForSomeTimeUtil(TWO_SECONDS);
     }
 
     public static UpdateProfileLink inMainPageGoToProfileSession() {

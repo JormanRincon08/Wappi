@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.Task;
 import static com.automationpractice.wappi.interactions.Login.loginWith;
 import static com.automationpractice.wappi.utils.util.Const.THREE_SECONDS;
 import static com.automationpractice.wappi.utils.util.TransposeDataTable.transposeDataTable;
-import static com.automationpractice.wappi.utils.util.Util.waitForSomeTime;
+import static com.automationpractice.wappi.utils.util.Util.waitForSomeTimeUtil;
 
 public class LoginTask implements Task {
 
@@ -22,7 +22,7 @@ public class LoginTask implements Task {
     public <T extends Actor> void performAs(T actor) {
         UserModel user = transposeDataTable(UserModel.class, credentials);
         actor.attemptsTo(loginWith(user));
-        waitForSomeTime(THREE_SECONDS);
+        waitForSomeTimeUtil(THREE_SECONDS);
     }
 
     public static LoginTask inLoginPageEnterThe(DataTable credentials) {
