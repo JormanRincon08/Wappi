@@ -4,12 +4,14 @@ import com.automationpractice.wappi.models.updateprofile.UpdateProfileModel;
 import cucumber.api.DataTable;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.SelectFromOptions;
+import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
+import net.serenitybdd.screenplay.actions.*;
 import net.serenitybdd.screenplay.conditions.Check;
 
+import java.nio.file.Paths;
+
 import static com.automationpractice.wappi.tasks.general.TakeScreenshot.takeScreenshot;
+import static com.automationpractice.wappi.tasks.general.UploadFile.uploadFile;
 import static com.automationpractice.wappi.userinterface.updateprofile.UpdateProfilePage.*;
 import static com.automationpractice.wappi.utils.util.Const.MALE_VALUE;
 import static com.automationpractice.wappi.utils.util.Const.THREE_SECONDS;
@@ -33,8 +35,9 @@ public class UpdateProfile implements Task {
 
                 Check.whether(isNullOrEmpty(updateProfileModel.getImage()))
                         .andIfSo(
+                                uploadFile(BrowseTheWeb.as(actor).getDriver(),"//input[@id='image']", updateProfileModel.getImage())
                                 //Upload.theFile(Paths.get(updateProfileModel.getImage())).to(IMAGE)
-                                Enter.keyValues(updateProfileModel.getImage()).into(IMAGE)
+                                //Enter.keyValues(updateProfileModel.getImage()).into(IMAGE)
                         ),
                 Enter.theValue(updateProfileModel.getFirstName()).into(FIRST_NAME),
                 Enter.theValue(updateProfileModel.getLastName()).into(LAST_NAME),

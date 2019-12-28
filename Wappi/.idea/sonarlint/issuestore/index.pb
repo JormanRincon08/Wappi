@@ -81,3 +81,5 @@ b
 2src/test/resources/features/update_profile.feature,b\5\b5592b36881c9953c531b1b6823da8c529644c0e
 Å
 Qsrc/main/java/com/automationpractice/wappi/tasks/updateprofile/UpdateProfile.java,e\e\eed9af6e6d55a83d684cb7dec3b29af7df6ef5d6
+x
+Hsrc/main/java/com/automationpractice/wappi/tasks/general/UploadFile.java,f\2\f231942c3d6c6969ed13b4d2e4a4eb9e48780088

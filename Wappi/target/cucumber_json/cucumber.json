@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7582744999,
+              "duration": 12333939200,
               "status": "passed"
             },
             "match": {
@@ -15,20 +15,20 @@
           },
           {
             "result": {
-              "duration": 499907700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginAndLogoutStepDefinition.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 489597600,
+              "duration": 1691045600,
               "status": "passed"
             },
             "match": {
               "location": "OrderWithCouponStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1289336800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginAndLogoutStepDefinition.setup()"
             }
           }
         ],
@@ -41,7 +41,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3853150900,
+              "duration": 4926002900,
               "status": "passed"
             },
             "line": 7,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 2170376100,
+              "duration": 2359863600,
               "status": "passed"
             },
             "line": 10,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 5050948399,
+              "duration": 10817694800,
               "status": "passed"
             },
             "line": 11,
@@ -91,7 +91,7 @@
               {
                 "cells": [
                   "image",
-                  "‪C:\\Users\\jorma\\Desktop\\img.jpg"
+                  "C:/Wappi/Wappi/img.jpg"
                 ]
               },
               {
@@ -135,7 +135,7 @@
           },
           {
             "result": {
-              "duration": 3828001,
+              "duration": 17268000,
               "status": "passed"
             },
             "line": 19,
