@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 8278791300,
+              "duration": 7956043600,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 504946800,
+              "duration": 561563700,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,16 @@
           },
           {
             "result": {
-              "duration": 522043300,
+              "duration": 500343900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SortOffersByCriteriaStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 504063500,
               "status": "passed"
             },
             "match": {
@@ -32,16 +41,16 @@
             }
           }
         ],
-        "line": 17,
-        "name": "Successfully Order With Coupon",
+        "line": 23,
+        "name": "Successfully Update Profile Data",
         "description": "",
-        "id": "order-with-coupon;successfully-order-with-coupon;;2",
+        "id": "update-profile;successfully-update-profile-data;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3992294100,
+              "duration": 3948763100,
               "status": "passed"
             },
             "line": 7,
@@ -67,49 +76,75 @@
           },
           {
             "result": {
-              "duration": 2243763200,
+              "duration": 2192539800,
               "status": "passed"
             },
             "line": 10,
-            "name": "I get the welcome coupon code",
+            "name": "I enter the update profile section",
             "match": {
-              "location": "OrderWithCouponStepDefinition.iGetTheWelcomeCouponCode()"
+              "location": "UpdateProfileStepDefinition.iEnterTheUpdateProfileSection()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 6454034100,
+              "duration": 5172691700,
               "status": "passed"
             },
             "line": 11,
-            "name": "I place an \"Pan tajado\" order with the discount code",
+            "name": "I enter the data to modify",
             "match": {
-              "arguments": [
-                {
-                  "val": "Pan tajado",
-                  "offset": 12
-                }
-              ],
-              "location": "OrderWithCouponStepDefinition.iPlaceAnOrderWithTheDiscountCode(String)"
+              "location": "UpdateProfileStepDefinition.iEnterTheDataToModify(DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "image",
+                  "C:/Wappi/Wappi/img.jpg"
+                ]
+              },
+              {
+                "cells": [
+                  "firstName",
+                  "Jorman"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Rincón"
+                ]
+              },
+              {
+                "cells": [
+                  "bornDate",
+                  "06/11/1993"
+                ]
+              },
+              {
+                "cells": [
+                  "country",
+                  "Estados Unidos"
+                ]
+              },
+              {
+                "cells": [
+                  "gender",
+                  "Masculino"
+                ]
+              }
+            ],
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 4797187800,
+              "duration": 3724300,
               "status": "passed"
             },
-            "line": 12,
-            "name": "I value that the order has been correctly executed \"ha sido utilizado con éxito\"",
+            "line": 18,
+            "name": "I must validate the expected result of the update",
             "match": {
-              "arguments": [
-                {
-                  "val": "ha sido utilizado con éxito",
-                  "offset": 52
-                }
-              ],
-              "location": "OrderWithCouponStepDefinition.iValueThatTheOrderHasBeenCorrectlyExecuted(String)"
+              "location": "UpdateProfileStepDefinition.iMustValidateTheExpectedResultOfTheUpdate()"
             },
             "keyword": "Then "
           }
@@ -121,11 +156,11 @@
         ]
       }
     ],
-    "name": "Order With Coupon",
-    "description": "  I want to get a coupon to place an order",
-    "id": "order-with-coupon",
+    "name": "Update Profile",
+    "description": "  I want to update my profile data",
+    "id": "update-profile",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/order_with_coupon.feature",
+    "uri": "src/test/resources/features/update_profile.feature",
     "tags": []
   }
 ]

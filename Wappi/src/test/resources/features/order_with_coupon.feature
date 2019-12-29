@@ -12,7 +12,7 @@ Feature: Order With Coupon
     Then I value that the order has been correctly executed "<expectedResult>"
 
     Examples:
-      | userName | password | offer | expectedResult |
+      | userName      | password      | offer      | expectedResult              |
       ##@externaldata@./src/test/resources/datadriven/DataDriven.xlsx@OrderWithCoupon
       |Administrador|Administrador|Pan tajado|ha sido utilizado con éxito|
 

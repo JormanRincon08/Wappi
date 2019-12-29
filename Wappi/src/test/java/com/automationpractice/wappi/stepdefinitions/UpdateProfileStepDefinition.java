@@ -8,9 +8,12 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.Actor;
 
+import static com.automationpractice.wappi.questions.updateprofile.UpdateProfileResult.theUpdateProfileResultIs;
 import static com.automationpractice.wappi.tasks.loginandlogout.LoginTask.inLoginPageEnterThe;
 import static com.automationpractice.wappi.tasks.updateprofile.UpdateProfile.inProfilePageEnterThe;
 import static com.automationpractice.wappi.tasks.updateprofile.UpdateProfileLink.inMainPageGoToProfileSession;
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 public class UpdateProfileStepDefinition extends Setup {
 
@@ -37,7 +40,8 @@ public class UpdateProfileStepDefinition extends Setup {
         client.attemptsTo(inProfilePageEnterThe(userData));
     }
 
-    @Then("^I must validate the expected result of the update \"([^\"]*)\"$")
-    public void iMustValidateTheExpectedResultOfTheUpdate(String expectedResult) {
+    @Then("^I must validate the expected result of the update$")
+    public void iMustValidateTheExpectedResultOfTheUpdate() {
+        //client.should(seeThat(theUpdateProfileResultIs(), equalTo(true)));
     }
 }

@@ -1,8 +1,8 @@
 package com.automationpractice.wappi.runners;
 
 import com.automationpractice.wappi.utils.poi.DataToFeature;
-import com.automationpractice.wappi.utils.runTest.BeforeSuite;
-import com.automationpractice.wappi.utils.runTest.CustomRunner;
+import com.automationpractice.wappi.utils.runtest.BeforeSuite;
+import com.automationpractice.wappi.utils.runtest.CustomRunner;
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
 import org.junit.runner.RunWith;
