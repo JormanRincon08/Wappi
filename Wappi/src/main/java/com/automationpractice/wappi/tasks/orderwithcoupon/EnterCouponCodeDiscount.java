@@ -28,11 +28,11 @@ public class EnterCouponCodeDiscount implements Task {
         actor.attemptsTo(
                 takeScreenshot("Order Confirmation"),
                 Check.whether(offer.trim().toLowerCase().equalsIgnoreCase(SUNFLOWER_OIL_VALUE.toLowerCase()))
-                        .andIfSo(Click.on(ASK_FOR_ACEITE_GIRASOL)),
+                        .andIfSo(Click.on(ASK_FOR_SUNFLOWER_OIL)),
                 Check.whether(offer.trim().toLowerCase().equalsIgnoreCase(HALVED_BREAD.toLowerCase()))
-                        .andIfSo(Click.on(ASK_FOR_PAN_TAJADO)),
+                        .andIfSo(Click.on(ASK_FOR_HALVED_BREAD)),
                 Check.whether(offer.trim().toLowerCase().equalsIgnoreCase(PREMIUM_HAM.toLowerCase()))
-                        .andIfSo(Click.on(ASK_FOR_JAMON_PREMIUM)),
+                        .andIfSo(Click.on(ASK_FOR_PREMIUM_HAM)),
                 waitForSomeTime(ONE_SECOND),
                 Enter.theValue(codeCoupon).into(COUPON_CODE_FIELD),
                 waitForSomeTime(ONE_SECOND),

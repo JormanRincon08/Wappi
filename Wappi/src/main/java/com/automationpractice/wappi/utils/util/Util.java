@@ -1,21 +1,11 @@
 package com.automationpractice.wappi.utils.util;
 
-import static java.lang.Thread.sleep;
-
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.questions.Text;
-import net.thucydides.core.pages.components.FileToUpload;
-import org.apache.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-
 import net.serenitybdd.screenplay.targets.Target;
+import org.apache.log4j.Logger;
+
+import static java.lang.Thread.sleep;
 
 public class Util {
 

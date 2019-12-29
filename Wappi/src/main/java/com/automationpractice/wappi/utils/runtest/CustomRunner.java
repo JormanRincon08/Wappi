@@ -1,4 +1,4 @@
-package com.automationpractice.wappi.utils.runTest;
+package com.automationpractice.wappi.utils.runtest;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;

@@ -35,7 +35,6 @@ public class OrderWithCouponStepDefinition extends Setup {
         client.attemptsTo(closeGetCouponWelcomeModal());
     }
 
-
     @When("^I place an \"([^\"]*)\" order with the discount code$")
     public void iPlaceAnOrderWithTheDiscountCode(String offer) {
         client.attemptsTo(inOrderConfirmEnterThe(offer, welcomeCouponCode));
