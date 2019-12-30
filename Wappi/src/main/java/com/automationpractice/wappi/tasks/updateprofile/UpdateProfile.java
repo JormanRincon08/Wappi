@@ -5,19 +5,13 @@ import cucumber.api.DataTable;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.SelectFromOptions;
-import net.serenitybdd.screenplay.actions.Upload;
+import net.serenitybdd.screenplay.actions.*;
 import net.serenitybdd.screenplay.conditions.Check;
 import net.thucydides.core.pages.components.FileToUpload;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.nio.file.FileSystems;
-
 import static com.automationpractice.wappi.tasks.general.TakeScreenshot.takeScreenshot;
-import static com.automationpractice.wappi.tasks.general.UploadFile.uploadFileIn;
 import static com.automationpractice.wappi.userinterface.updateprofile.UpdateProfilePage.*;
 import static com.automationpractice.wappi.utils.util.Const.*;
 import static com.automationpractice.wappi.utils.util.TransposeDataTable.transposeDataTable;
@@ -34,25 +28,12 @@ public class UpdateProfile implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
+        takeScreenshot("Update Information Profile User");
         UpdateProfileModel updateProfileModel = transposeDataTable(UpdateProfileModel.class, userProfileInformation);
+        if (!isNullOrEmpty(updateProfileModel.getImage()))
+            myUploadFile(BrowseTheWeb.as(actor).getDriver(), INPUT_FILE, updateProfileModel.getImage());
 
-        //myUploadFile(BrowseTheWeb.as(actor).getDriver(), "//input[@id='image']", "C:/Users/jorma/Desktop/img.jpg");
-        myUploadFile(BrowseTheWeb.as(actor).getDriver(), "//input[@id='image']", "img.jpg");
         actor.attemptsTo(
-                takeScreenshot("Update Information Profile User"),
-
-                Check.whether(isNullOrEmpty(updateProfileModel.getImage()))
-                        .andIfSo(
-                                //Upload.theFile(FileSystems.getDefault().getPath("C:\\Wappi\\Wappi\\img.jpg")).to(IMAGE)
-
-                                //uploadFileIn(BrowseTheWeb.as(actor).getDriver(), "//input[@id='image']", "C:/Wappi/Wappi/img.jpg")
-
-                                //uploadFileIn(BrowseTheWeb.as(actor).getDriver(),"//input[@id='image']", FileSystems.getDefault().getPath("C:\\Wappi\\Wappi\\img.jpg"))
-
-
-                                //Upload.theFile(Paths.get(updateProfileModel.getImage())).to(IMAGE)
-                                //Enter.keyValues(updateProfileModel.getImage()).into(IMAGE)
-                        ),
                 Enter.theValue(updateProfileModel.getFirstName()).into(FIRST_NAME),
                 Enter.theValue(updateProfileModel.getLastName()).into(LAST_NAME),
                 Enter.theValue(updateProfileModel.getBornDate()).into(BORN_DATE),

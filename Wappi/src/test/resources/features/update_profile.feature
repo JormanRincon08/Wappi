@@ -20,4 +20,4 @@ Feature: Update Profile
     Examples:
       | userName      | password      | image                  | firstName | lastName | bornDate   | country        | gender    |
       ##@externaldata@./src/test/resources/datadriven/DataDriven.xlsx@Profile
-      |Administrador|Administrador|C:/Wappi/Wappi/img.jpg|Jorman|Rincón|06/11/1993|Estados Unidos|Masculino|
+      |Administrador|Administrador|img.jpg|Jorman|Rincón|06/11/1993|Estados Unidos|Masculino|

@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 
 public class UpdateProfilePage extends PageObject {
 	public static final Target IMAGE = Target.the("Image").located(By.xpath("//input[@id='image']"));
+	public static final String INPUT_FILE = "//input[@id='image']";
 	public static final Target FIRST_NAME = Target.the("First Name").located(By.xpath("//input[@id='name']"));
 	public static final Target LAST_NAME = Target.the("Last Name").located(By.xpath("//input[@id='lastName']"));
 	public static final Target BORN_DATE = Target.the("Born Date").located(By.xpath("//input[@id='bornDate']"));

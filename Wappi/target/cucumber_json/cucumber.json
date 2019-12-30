@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7889930900,
+              "duration": 7782919100,
               "status": "passed"
             },
             "match": {
@@ -15,16 +15,7 @@
           },
           {
             "result": {
-              "duration": 599933600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginAndLogoutStepDefinition.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 583456900,
+              "duration": 600858100,
               "status": "passed"
             },
             "match": {
@@ -33,7 +24,16 @@
           },
           {
             "result": {
-              "duration": 598845400,
+              "duration": 554451800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginAndLogoutStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 584849000,
               "status": "passed"
             },
             "match": {
@@ -50,7 +50,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4609595200,
+              "duration": 4649452500,
               "status": "passed"
             },
             "line": 7,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 2265760300,
+              "duration": 2240096500,
               "status": "passed"
             },
             "line": 10,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 6024060600,
+              "duration": 5608300500,
               "status": "passed"
             },
             "line": 11,
@@ -100,7 +100,7 @@
               {
                 "cells": [
                   "image",
-                  "C:/Wappi/Wappi/img.jpg"
+                  "img.jpg"
                 ]
               },
               {
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 1213700,
+              "duration": 1082000,
               "status": "passed"
             },
             "line": 18,
