@@ -47,8 +47,6 @@ x
 Hsrc/main/java/com/automationpractice/wappi/models/general/UserModel.java,f\f\ff1768c5e62db0a51888b9f294710a0b4a1ccee9
 p
 @src/main/java/com/automationpractice/wappi/utils/util/Const.java,b\e\beb44a94b1873488e9e693b7c733bbce5b4bb081
-}
-Msrc/main/java/com/automationpractice/wappi/questions/RegisterErrorResult.java,7\d\7d4e4c1c0938222f8a021a25b29849198df9695d
 ‡
 Wsrc/main/java/com/automationpractice/wappi/models/updateprofile/UpdateProfileModel.java,7\4\745a74c7195c83c767472094dfbf7e76bde8fe31
 u

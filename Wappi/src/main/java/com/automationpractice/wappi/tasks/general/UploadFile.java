@@ -1,14 +1,14 @@
 package com.automationpractice.wappi.tasks.general;
 
-import static net.serenitybdd.screenplay.Tasks.instrumented;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
+import com.automationpractice.wappi.userinterface.updateprofile.UpdateProfilePage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.thucydides.core.pages.components.FileToUpload;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import static com.automationpractice.wappi.userinterface.updateprofile.UpdateProfilePage.getUploadWebElementById;
+import static net.serenitybdd.screenplay.Tasks.instrumented;
 
 public class UploadFile implements Task {
 
@@ -20,10 +20,6 @@ public class UploadFile implements Task {
         this.driver = driver;
         this.xpathExpression = xpathExpression;
         this.pathFile = pathFile;
-    }
-
-    public static UploadFile uploadFileIn(WebDriver driver, String xpathExpression, String pathFile) {
-        return instrumented(UploadFile.class, driver, xpathExpression, pathFile);
     }
 
     @Override
@@ -38,7 +34,7 @@ public class UploadFile implements Task {
         fileToUpload.fromLocalMachine().to(webElement);
     }
 
-    public static WebElement getUploadWebElementById(String id, WebDriver driver) {
-        return driver.findElement(By.xpath(id));
+    public static UploadFile uploadFileIn(WebDriver driver, String xpathExpression, String pathFile) {
+        return instrumented(UploadFile.class, driver, xpathExpression, pathFile);
     }
 }

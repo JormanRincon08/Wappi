@@ -5,8 +5,14 @@ import cucumber.api.DataTable;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import net.serenitybdd.screenplay.actions.*;
+import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actions.Enter;
+import net.serenitybdd.screenplay.actions.SelectFromOptions;
+import net.serenitybdd.screenplay.actions.Upload;
 import net.serenitybdd.screenplay.conditions.Check;
+import net.thucydides.core.pages.components.FileToUpload;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import java.nio.file.FileSystems;
 
@@ -29,6 +35,9 @@ public class UpdateProfile implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         UpdateProfileModel updateProfileModel = transposeDataTable(UpdateProfileModel.class, userProfileInformation);
+
+        //myUploadFile(BrowseTheWeb.as(actor).getDriver(), "//input[@id='image']", "C:/Users/jorma/Desktop/img.jpg");
+        myUploadFile(BrowseTheWeb.as(actor).getDriver(), "//input[@id='image']", "img.jpg");
         actor.attemptsTo(
                 takeScreenshot("Update Information Profile User"),
 
@@ -36,7 +45,8 @@ public class UpdateProfile implements Task {
                         .andIfSo(
                                 //Upload.theFile(FileSystems.getDefault().getPath("C:\\Wappi\\Wappi\\img.jpg")).to(IMAGE)
 
-                                //uploadFileIn(BrowseTheWeb.as(actor).getDriver(),"//input[@id='image']", updateProfileModel.getImage())
+                                //uploadFileIn(BrowseTheWeb.as(actor).getDriver(), "//input[@id='image']", "C:/Wappi/Wappi/img.jpg")
+
                                 //uploadFileIn(BrowseTheWeb.as(actor).getDriver(),"//input[@id='image']", FileSystems.getDefault().getPath("C:\\Wappi\\Wappi\\img.jpg"))
 
 
@@ -55,6 +65,12 @@ public class UpdateProfile implements Task {
                 Click.on(SAVE)
         );
         waitForSomeTimeUtil(THREE_SECONDS);
+    }
+
+    public void myUploadFile(WebDriver driver, String xpathExpression, String pathFile) {
+        WebElement webElement = getUploadWebElementById(xpathExpression, driver);
+        FileToUpload fileToUpload = new FileToUpload(driver, pathFile);
+        fileToUpload.fromLocalMachine().to(webElement);
     }
 
     public static UpdateProfile inProfilePageEnterThe(DataTable userProfileInformation) {
