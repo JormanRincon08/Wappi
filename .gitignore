@@ -37,7 +37,8 @@
 */Wappi/bin
 */Wappi/target/site/serenity/*
 */Wappi/target/cucumber_json/*
-*/Wappi/target/
+*/Wappi/target/*
+Wappi/target/*
 
 
 #Log Files

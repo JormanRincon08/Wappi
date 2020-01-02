@@ -24,13 +24,13 @@ public class OrderByCriteria implements Task {
     public <T extends Actor> void performAs(T actor) {
         for (int i = 1; i <= clickQuantity; i++) {
             actor.attemptsTo(
-                    takeScreenshot("Order by criteria: " + criteria + ", Click: " + i),
                     Check.whether(criteria.trim().toLowerCase().equalsIgnoreCase(ORDER_BY_DATE_VALUE.toLowerCase()))
                             .andIfSo(Click.on(DATE_ORDER_COLUMN)),
                     Check.whether(criteria.trim().toLowerCase().equalsIgnoreCase(ORDER_BY_PRICE_VALUE.toLowerCase()))
                             .andIfSo(Click.on(PRICE_ORDER_COLUMN)),
                     Check.whether(criteria.trim().toLowerCase().equalsIgnoreCase(ORDER_BY_COMMERCE_VALUE.toLowerCase()))
-                            .andIfSo(Click.on(COMMERCE_ORDER_COLUMN))
+                            .andIfSo(Click.on(COMMERCE_ORDER_COLUMN)),
+                    takeScreenshot("Order by criteria: " + criteria + ", Click: " + i)
                     );
         }
     }

@@ -8,10 +8,12 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.serenitybdd.screenplay.Actor;
 
+import static com.automationpractice.wappi.questions.updateprofile.UpdateProfileRequiredFields.theUpdateProfileMandatoryResult;
 import static com.automationpractice.wappi.questions.updateprofile.UpdateProfileResult.theUpdateProfileResultIs;
 import static com.automationpractice.wappi.tasks.loginandlogout.LoginTask.inLoginPageEnterThe;
 import static com.automationpractice.wappi.tasks.updateprofile.UpdateProfile.inProfilePageEnterThe;
 import static com.automationpractice.wappi.tasks.updateprofile.UpdateProfileLink.inMainPageGoToProfileSession;
+import static com.automationpractice.wappi.tasks.updateprofile.UpdateProfileRequiredFields.inProfileClickSave;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.CoreMatchers.equalTo;
 
@@ -42,6 +44,16 @@ public class UpdateProfileStepDefinition extends Setup {
 
     @Then("^I must validate the expected result of the update$")
     public void iMustValidateTheExpectedResultOfTheUpdate() {
-        //client.should(seeThat(theUpdateProfileResultIs(), equalTo(true)));
+        client.should(seeThat(theUpdateProfileResultIs(), equalTo(true)));
+    }
+
+    @When("^I not enter the data to modify$")
+    public void iNotEnterTheDataToModify() {
+        client.attemptsTo(inProfileClickSave());
+    }
+
+    @Then("^I validate that the fields not filled out are mandatory$")
+    public void iValidateThatTheFieldsNotFilledOutAreMandatory() {
+        client.should(seeThat(theUpdateProfileMandatoryResult()));
     }
 }
