@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CustomRunner.class)
 @CucumberOptions(features = "src/test/resources/features/update_profile.feature",
-				 //tags = "@Fail",
+				 //tags = "@FieldsRequired",
 				 snippets = SnippetType.CAMELCASE, 
 				 plugin = { "json:target/cucumber_json/cucumber.json" }, 
 				 glue = { "com.automationpractice.wappi.stepdefinitions" })

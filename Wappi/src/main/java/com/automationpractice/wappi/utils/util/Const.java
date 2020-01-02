@@ -22,6 +22,15 @@ public class Const {
 	public static final String UPWARD_VALUE = "ASC";
 	public static final String FALLING_VALUE = "DESC";
 
+	public static final String REPORT = "Report";
+	public static final String SUCCESS_RESULT = "OK";
+	public static final String FAILED_RESULT = "ERROR";
+
+	public static final String IMAGE_MANDATORY_VALUE = "La imagen es requerida";
+	public static final String FIRST_NAME_MANDATORY_VALUE = "El nombre es requerido";
+	public static final String BORN_DATE_MANDATORY_VALUE = "La fecha de nacimiento es requerida";
+	public static final String COUNTRY_MANDATORY_VALUE = "El país es requerido";
+	public static final String GENDER_MANDATORY_VALUE = "El género es requerido";
 
 	private Const() {
 

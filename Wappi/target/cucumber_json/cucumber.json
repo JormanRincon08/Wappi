@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7782919100,
+              "duration": 7242241400,
               "status": "passed"
             },
             "match": {
@@ -15,16 +15,7 @@
           },
           {
             "result": {
-              "duration": 600858100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "SortOffersByCriteriaStepDefinition.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 554451800,
+              "duration": 403300900,
               "status": "passed"
             },
             "match": {
@@ -33,7 +24,16 @@
           },
           {
             "result": {
-              "duration": 584849000,
+              "duration": 391024000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SortOffersByCriteriaStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 397831400,
               "status": "passed"
             },
             "match": {
@@ -41,7 +41,7 @@
             }
           }
         ],
-        "line": 23,
+        "line": 22,
         "name": "Successfully Update Profile Data",
         "description": "",
         "id": "update-profile;successfully-update-profile-data;;2",
@@ -50,7 +50,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4649452500,
+              "duration": 4303505200,
               "status": "passed"
             },
             "line": 7,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 2240096500,
+              "duration": 2149058600,
               "status": "passed"
             },
             "line": 10,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 5608300500,
+              "duration": 4075643600,
               "status": "passed"
             },
             "line": 11,
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 1082000,
+              "duration": 56424100,
               "status": "passed"
             },
             "line": 18,
@@ -152,6 +152,121 @@
         "tags": [
           {
             "name": "@Successfully"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5503277300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UpdateProfileStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 387551600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginAndLogoutStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 361791800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SortOffersByCriteriaStepDefinition.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 373532000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "OrderWithCouponStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Error Update Profile Data, Fields Required",
+        "description": "",
+        "id": "update-profile;error-update-profile-data--fields-required;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4078752000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "that I want to enter the page",
+            "match": {
+              "location": "UpdateProfileStepDefinition.thatIWantToEnterThePage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "Administrador"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Administrador"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2136312800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter the update profile section",
+            "match": {
+              "location": "UpdateProfileStepDefinition.iEnterTheUpdateProfileSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3822841900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I not enter the data to modify",
+            "match": {
+              "location": "UpdateProfileStepDefinition.iNotEnterTheDataToModify()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283566500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I validate that the fields not filled out are mandatory",
+            "match": {
+              "location": "UpdateProfileStepDefinition.iValidateThatTheFieldsNotFilledOutAreMandatory()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FieldsRequired"
           }
         ]
       }

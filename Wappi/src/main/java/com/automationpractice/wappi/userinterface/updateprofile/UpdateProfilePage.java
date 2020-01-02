@@ -17,6 +17,12 @@ public class UpdateProfilePage extends PageObject {
 	public static final Target FEMALE = Target.the("Female Gender").located(By.xpath("//input[@id='Female']"));
 	public static final Target SAVE = Target.the("Submit Button Save").located(By.xpath("//button[@id='save-profile']"));
 
+	public static final Target MANDATORY_IMAGE = Target.the("Mandatory Image").located(By.xpath("//span[@id='e-image' and @class='error-message']"));
+	public static final Target MANDATORY_FIRST_NAME = Target.the("Mandatory First Name").located(By.xpath("//span[@id='e-name' and @class='error-message']"));
+	public static final Target MANDATORY_BORN_DATE = Target.the("Mandatory Born Date").located(By.xpath("//span[@id='e-bornDate' and @class='error-message']"));
+	public static final Target MANDATORY_COUNTRY = Target.the("Mandatory Country").located(By.xpath("//span[@id='e-country' and @class='error-message']"));
+	public static final Target MANDATORY_GENDER = Target.the("Mandatory Gender").located(By.xpath("//span[@id='e-genre' and @class='error-message']"));
+
 	public static WebElement getUploadWebElementById(String id, WebDriver driver) {
 		return driver.findElement(By.xpath(id));
 	}

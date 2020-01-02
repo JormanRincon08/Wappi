@@ -37,7 +37,8 @@ public class UpdateProfile implements Task {
                 Enter.theValue(updateProfileModel.getFirstName()).into(FIRST_NAME),
                 Enter.theValue(updateProfileModel.getLastName()).into(LAST_NAME),
                 Enter.theValue(updateProfileModel.getBornDate()).into(BORN_DATE),
-                SelectFromOptions.byVisibleText(updateProfileModel.getCountry().trim()).from(COUNTRY),
+                Check.whether(!isNullOrEmpty(updateProfileModel.getCountry()))
+                        .andIfSo(SelectFromOptions.byVisibleText(updateProfileModel.getCountry().trim()).from(COUNTRY)),
                 Check.whether(updateProfileModel.getGender().trim().toLowerCase().equalsIgnoreCase(MALE_VALUE.toLowerCase()))
                         .andIfSo(Click.on(MALE)),
                 Check.whether(updateProfileModel.getGender().trim().toLowerCase().equalsIgnoreCase(FEMALE_VALUE.toLowerCase()))

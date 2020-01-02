@@ -23,8 +23,7 @@ public class OpenBrowser implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(Open.browserOn().the(this.pageObject));
-        actor.should(
-                seeThat(the(USER_NAME), isPresent()).orComplainWith(LoginExc.class, MESSAGE_PAGE_DO_NOT_LOADED));
+        actor.should(seeThat(the(USER_NAME), isPresent()).orComplainWith(LoginExc.class, MESSAGE_PAGE_DO_NOT_LOADED));
     }
 
     public static OpenBrowser openTheBrowserOn(PageObject pageObject) {

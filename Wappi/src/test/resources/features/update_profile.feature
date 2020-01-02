@@ -16,8 +16,20 @@ Feature: Update Profile
       | country   | <country>   |
       | gender    | <gender>    |
     Then I must validate the expected result of the update
-
     Examples:
-      | userName      | password      | image                  | firstName | lastName | bornDate   | country        | gender    |
+      | userName      | password      | image   | firstName | lastName | bornDate   | country        | gender    |
       ##@externaldata@./src/test/resources/datadriven/DataDriven.xlsx@Profile
       |Administrador|Administrador|img.jpg|Jorman|Rincón|06/11/1993|Estados Unidos|Masculino|
+
+
+  @FieldsRequired
+  Scenario Outline: Error Update Profile Data, Fields Required
+    Given that I want to enter the page
+      | userName | <userName> |
+      | password | <password> |
+    When I enter the update profile section
+    And I not enter the data to modify
+    Then I validate that the fields not filled out are mandatory
+    Examples:
+      | userName      | password      |
+      | Administrador | Administrador |

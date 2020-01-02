@@ -6,10 +6,9 @@ apply plugin: 'java-library'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
-apply plugin: 'org.sonarqube'
 
 sourceCompatibility = 1.8
-targetCompatibility = 1.8
+/*targetCompatibility = 1.8*/
 
 repositories {
     jcenter()
@@ -21,15 +20,14 @@ buildscript {
     }
     
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.82")
-        classpath("org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.9.9")
     }
 }
 
-
 ext {
-    serenityVersion = '2.0.82'
-    serenityCucumberVersion = '1.9.45'
+    serenityVersion = '1.9.9'
+    serenityCucumberVersion = '1.9.5'
+    serenityScreenplayRestVersion = '1.9.20'
     apachePoiVersion = '3.17'
     jacobVersion = '1.14.3'
     log4jVersion = '1.2.17'
@@ -40,14 +38,14 @@ ext {
 
 dependencies {
     compile group: 'net.serenity-bdd', name: 'serenity-gradle-plugin', version: serenityVersion
-
     implementation group: 'net.serenity-bdd', name: 'serenity-core', version: serenityVersion
     implementation group: 'net.serenity-bdd', name: 'serenity-junit', version: serenityVersion
     implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: serenityVersion
     implementation group: 'net.serenity-bdd', name: 'serenity-cucumber', version: serenityCucumberVersion
-    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: apachePoiVersion
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay-rest', version: serenityScreenplayRestVersion
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: apachePoiVersion
     implementation group: 'log4j', name: 'log4j', version: log4jVersion
-    implementation group: 'junit', name: 'junit', version: junitVersion
+    testCompile group: 'junit', name: 'junit', version: junitVersion
     implementation group: 'org.slf4j', name: 'slf4j-simple', version: slf4jSimpleVersion
 }
 
