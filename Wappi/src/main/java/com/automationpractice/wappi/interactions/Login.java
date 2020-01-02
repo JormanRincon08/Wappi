@@ -1,5 +1,6 @@
 package com.automationpractice.wappi.interactions;
 
+import static com.automationpractice.wappi.tasks.general.TakeScreenshot.takeScreenshot;
 import static com.automationpractice.wappi.userinterface.general.LoginPage.USER_NAME;
 import static com.automationpractice.wappi.userinterface.general.LoginPage.PASSWORD;
 import static com.automationpractice.wappi.userinterface.general.LoginPage.SUBMIT_BUTTON;
@@ -22,8 +23,10 @@ public class Login implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
+                takeScreenshot("Login page"),
                 Enter.theValue(this.user.getUserName()).into(USER_NAME),
                 Enter.theValue(this.user.getPassword()).into(PASSWORD),
+                takeScreenshot("Credentials entered"),
                 Click.on(SUBMIT_BUTTON)
         );
     }

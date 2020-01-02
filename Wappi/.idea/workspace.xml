@@ -2,46 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c98cda-6d9d-4823-b980-94c4a285f56f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/questions/updateprofile/UpdateProfileResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/sortoffersbycriteria/OrderByCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/runners/SortOffersByCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/stepdefinitions/SortOffersByCriteriaStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/sort_offers_by_criteria.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a99e2f3d9ee92b121496355b4901520b0124ba0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44c333405c5522b37447ef10a59f969964458fc4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/565620c4973d7d2ffc1b2a8a52982c640713fd80" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/644e5ae6d21043cb39fd05e6e61b651c20caa99b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d4e4c1c0938222f8a021a25b29849198df9695d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d4e4c1c0938222f8a021a25b29849198df9695d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/98fe0c28edc7f6c8bdf7063085e96fa8897977d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a40855625b8252dc89e84ba47171c88f057ef1e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afddbe510ae10586187447726f95acf6b44e0cfd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4a7969675d95a4491ee407debbeac76bae39f40" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd54b7ff8b86fe6df27fc430b31f275d822b06d2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd54b7ff8b86fe6df27fc430b31f275d822b06d2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8c8e21a6cae4262833a0d5c5528c09be3ee7570" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e05a3e64a06eab2d48e0f9e8dc96f0e3bf3cfe5a" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/updateprofile/UpdateProfileRequiredFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/util/Validations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a7644ec43d83b04ddf8ed8e4c89c9978e74da94" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a7644ec43d83b04ddf8ed8e4c89c9978e74da94" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/interactions/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/interactions/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/interactions/WaitFor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/interactions/WaitFor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/models/createanaccount/PersonalInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/models/createanaccount/YourAddressInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/models/general/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/questions/RegisterErrorResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/questions/RegisterResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/tasks/createanaccount/EnterAddressInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/tasks/createanaccount/EnterEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/tasks/createanaccount/EnterPersonalInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/tasks/createanaccount/SelectLoginMainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/tasks/general/OpenBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/tasks/general/OpenBrowser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/userinterface/createanaccount/EmailPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/userinterface/createanaccount/PersonalInformationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/userinterface/createanaccount/YourAddressInformationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/userinterface/general/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/userinterface/general/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/userinterface/general/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/userinterface/general/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/utils/runTest/BeforeSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/utils/runTest/BeforeSuite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/utils/runTest/CustomRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/utils/runTest/CustomRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/utils/util/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/utils/util/Const.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/utils/util/Setup.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/utils/util/Setup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/utils/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/com/automationpractice/wappi/utils/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/com/automationpractice/wappi/runners/LoginAndLogout.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/com/automationpractice/wappi/runners/LoginAndLogout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/com/automationpractice/wappi/stepdefinitions/CreateAnAccountStepDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/com/automationpractice/wappi/stepdefinitions/LoginAndLogout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/datadriven/CreateAnAccount.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/datadriven/DataDriven.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/datadriven/DataDriven.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/datadriven/DataDriven_pw.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/features/login_signout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/features/login_signout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/features/update_profile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/features/update_profile.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example.log" beforeDir="false" afterPath="$PROJECT_DIR$/example.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/example.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/questions/RegisterErrorResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/questions/sortoffersbycriteria/SortResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/general/WaitForSomeTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/general/WaitForSomeTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/orderwithcoupon/EnterCouponCodeDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/orderwithcoupon/EnterCouponCodeDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/general/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/general/OpenBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/sortoffersbycriteria/OrderByCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/sortoffersbycriteria/OrderByCriteria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/updateprofile/UpdateProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/updateprofile/UpdateProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/general/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/general/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/runTest/BeforeSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/runtest/BeforeSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/runTest/CustomRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/runtest/CustomRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/updateprofile/UpdateProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/userinterface/updateprofile/UpdateProfilePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/util/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/util/Const.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/utils/util/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/runners/OrderWithCoupon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/runners/OrderWithCoupon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/runners/UpdateProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/runners/UpdateProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/stepdefinitions/OrderWithCouponStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/stepdefinitions/OrderWithCouponStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/stepdefinitions/UpdateProfileStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automationpractice/wappi/stepdefinitions/UpdateProfileStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/datadriven/DataDriven.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/datadriven/DataDriven.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/datadriven/DataDriven_pw.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/order_with_coupon.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/order_with_coupon.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/update_profile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/update_profile.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber_json/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber_json/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +72,23 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Wappi" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Wappi" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Wappi" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -88,16 +115,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.automationpractice.wappi.tasks.updateprofile" />
       <recent name="com.automationpractice.wappi.questions.updateprofile" />
       <recent name="com.automationpractice.wappi.stepdefinitions" />
       <recent name="com.automationpractice.wappi.tasks.orderwithcoupon" />
       <recent name="com.automationpractice.wappi.questions.orderwithcoupon" />
-      <recent name="com.automationpractice.wappi.userinterface.updateprofile" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Pruebas\Wolox\Prueba\Wappi\src\test\resources\features" />
@@ -106,26 +136,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.UpdateProfile">
-    <configuration name="CreateAnAccountRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.automationpractice.shopping.runners.CreateAnAccountRunner&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="LoginAndLogout" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,6 +216,44 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Wappi [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Wappi [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="UpdateProfile" type="JUnit" factoryName="JUnit">
       <module name="Wappi.test" />
       <shortenClasspath name="CLASSPATH_FILE" />
@@ -220,18 +268,20 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.UpdateProfile" />
-      <item itemvalue="Gradle.CreateAnAccountRunner" />
       <item itemvalue="Gradle.LoginAndLogout" />
       <item itemvalue="Gradle.OrderWithCoupon" />
-      <item itemvalue="JUnit.UpdateProfile" />
       <item itemvalue="Gradle.SortOffersByCriteria" />
+      <item itemvalue="Gradle.Wappi [clean]" />
+      <item itemvalue="Gradle.Wappi [build]" />
+      <item itemvalue="JUnit.UpdateProfile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Wappi [build]" />
+        <item itemvalue="Gradle.Wappi [clean]" />
         <item itemvalue="Gradle.SortOffersByCriteria" />
         <item itemvalue="Gradle.OrderWithCoupon" />
         <item itemvalue="Gradle.LoginAndLogout" />
-        <item itemvalue="Gradle.CreateAnAccountRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -274,13 +324,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576456596654" />
-    <state x="2430" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1577647938547">
-      <screen x="1920" y="0" width="1366" height="728" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1577665497401">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="510" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577461143847" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577414520516" />
     <state x="2430" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577647938547" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577161459656" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577665497401" />
     <state x="489" y="205" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577463276320">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -298,10 +348,15 @@
     </state>
     <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577414614806" />
     <state x="248" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1577162765604" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577497921676">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577668553110">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577497921676" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577668553110" />
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1577665561283">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577665561283" />
     <state width="492" height="412" key="DebuggerActiveHint" timestamp="1577502263934">
       <screen x="1920" y="0" width="1366" height="728" />
     </state>
@@ -309,73 +364,73 @@
     <state width="480" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577418657699" />
     <state width="492" height="412" key="DebuggerActiveHint/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577502263934" />
     <state width="431" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1577164936279" />
-    <state width="1323" height="169" key="GridCell.Tab.0.bottom" timestamp="1577653504949">
-      <screen x="1920" y="0" width="1366" height="728" />
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom" timestamp="1577936944285">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577463343992" />
     <state width="1493" height="252" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577502196402" />
     <state width="1323" height="169" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577653504949" />
-    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577333444478" />
-    <state width="1323" height="169" key="GridCell.Tab.0.center" timestamp="1577653504948">
-      <screen x="1920" y="0" width="1366" height="728" />
+    <state width="1493" height="296" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577936944285" />
+    <state width="1493" height="296" key="GridCell.Tab.0.center" timestamp="1577936944285">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577463343992" />
     <state width="1493" height="252" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577502196402" />
     <state width="1323" height="169" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577653504948" />
-    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577333444478" />
-    <state width="1323" height="169" key="GridCell.Tab.0.left" timestamp="1577653504948">
-      <screen x="1920" y="0" width="1366" height="728" />
+    <state width="1493" height="296" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577936944285" />
+    <state width="1493" height="296" key="GridCell.Tab.0.left" timestamp="1577936944285">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577463343992" />
     <state width="1493" height="252" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577502196402" />
     <state width="1323" height="169" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577653504948" />
-    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577333444478" />
-    <state width="1323" height="169" key="GridCell.Tab.0.right" timestamp="1577653504949">
-      <screen x="1920" y="0" width="1366" height="728" />
+    <state width="1493" height="296" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577936944285" />
+    <state width="1493" height="296" key="GridCell.Tab.0.right" timestamp="1577936944285">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577463343992" />
     <state width="1493" height="252" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577502196474" />
     <state width="1323" height="169" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577653504949" />
-    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577333444478" />
-    <state width="1323" height="252" key="GridCell.Tab.1.bottom" timestamp="1577508746986">
-      <screen x="1920" y="0" width="1366" height="728" />
+    <state width="1493" height="296" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577936944285" />
+    <state width="1493" height="296" key="GridCell.Tab.1.bottom" timestamp="1577936944164">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577463343997" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577502196402" />
     <state width="1323" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577508746986" />
-    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state width="1323" height="252" key="GridCell.Tab.1.center" timestamp="1577508746986">
-      <screen x="1920" y="0" width="1366" height="728" />
+    <state width="1493" height="296" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577936944164" />
+    <state width="1493" height="296" key="GridCell.Tab.1.center" timestamp="1577936944164">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1577463343992" />
     <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577502196402" />
     <state width="1323" height="252" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577508746986" />
-    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state width="1323" height="252" key="GridCell.Tab.1.left" timestamp="1577508746986">
-      <screen x="1920" y="0" width="1366" height="728" />
+    <state width="1493" height="296" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577936944164" />
+    <state width="1493" height="296" key="GridCell.Tab.1.left" timestamp="1577936944164">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1577463343992" />
     <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577502196402" />
     <state width="1323" height="252" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577508746986" />
-    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state width="1323" height="252" key="GridCell.Tab.1.right" timestamp="1577508746986">
-      <screen x="1920" y="0" width="1366" height="728" />
+    <state width="1493" height="296" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577936944164" />
+    <state width="1493" height="296" key="GridCell.Tab.1.right" timestamp="1577936944164">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1323" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1577463343996" />
     <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577502196402" />
     <state width="1323" height="252" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577508746986" />
-    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577165173772" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1577156517078">
+    <state width="1493" height="296" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577936944164" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1577936883906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1576451455138" />
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577156517078" />
-    <state x="2334" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1577633917551">
-      <screen x="1920" y="0" width="1366" height="728" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577936883906" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1577929044348">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1366.728@0.0.1536.824" timestamp="1577492688695" />
     <state x="2334" y="209" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1366.728@1920.0.1366.728" timestamp="1577633917551" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577333134290" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577929044348" />
     <state x="2331" y="15" width="607" height="698" key="find.popup" timestamp="1577503480995">
       <screen x="1920" y="0" width="1366" height="728" />
     </state>
@@ -406,9 +461,27 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/tasks/general/UploadFile.java</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/interactions/UploadFile.java</url>
+          <line>30</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/interactions/UploadFile.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/questions/updateprofile/UpdateProfileRequiredFields.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/automationpractice/wappi/interactions/UploadFile.java</url>
+          <line>36</line>
+          <properties class="com.automationpractice.wappi.tasks.general.UploadFile">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

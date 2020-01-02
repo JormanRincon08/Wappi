@@ -47,8 +47,6 @@ x
 Hsrc/main/java/com/automationpractice/wappi/models/general/UserModel.java,f\f\ff1768c5e62db0a51888b9f294710a0b4a1ccee9
 p
 @src/main/java/com/automationpractice/wappi/utils/util/Const.java,b\e\beb44a94b1873488e9e693b7c733bbce5b4bb081
-}
-Msrc/main/java/com/automationpractice/wappi/questions/RegisterErrorResult.java,7\d\7d4e4c1c0938222f8a021a25b29849198df9695d
 á
 Wsrc/main/java/com/automationpractice/wappi/models/updateprofile/UpdateProfileModel.java,7\4\745a74c7195c83c767472094dfbf7e76bde8fe31
 u
@@ -61,8 +59,6 @@ b
 2src/test/resources/features/update_profile.feature,b\5\b5592b36881c9953c531b1b6823da8c529644c0e
 Å
 Qsrc/main/java/com/automationpractice/wappi/tasks/updateprofile/UpdateProfile.java,e\e\eed9af6e6d55a83d684cb7dec3b29af7df6ef5d6
-x
-Hsrc/main/java/com/automationpractice/wappi/tasks/general/UploadFile.java,f\2\f231942c3d6c6969ed13b4d2e4a4eb9e48780088
 á
 Wsrc/main/java/com/automationpractice/wappi/questions/orderwithcoupon/GetCouponCode.java,c\6\c69b68559e4325d359ded976f6349aff1430ba87
 â
@@ -81,8 +77,6 @@ Xsrc/main/java/com/automationpractice/wappi/userinterface/orderwithcoupon/Coupon
 [src/main/java/com/automationpractice/wappi/userinterface/orderwithcoupon/UseCouponCode.java,6\0\606533691d5e631a1a87ea36f51ad6158cbf12c4
 å
 \src/main/java/com/automationpractice/wappi/tasks/orderwithcoupon/CloseOrderConfirmModal.java,3\8\38cbbe6e88e2dfed27c4803953008fe1845209b2
-ä
-Ztarget/site/serenity/cdedf937eb10d367c7d74c8bc4ee3c094b1bbc1a1d446cb0d22238871b343268.html,8\b\8bb5cd5d256d0c9c2be72ccca43f148fed268aff
 ä
 Zsrc/main/java/com/automationpractice/wappi/tasks/sortoffersbycriteria/OrderByCriteria.java,9\d\9dcb2a0c0acbacff5a2a42dca340cd36c1839ac5
 o
@@ -115,3 +109,7 @@ k
 [src/main/java/com/automationpractice/wappi/questions/updateprofile/UpdateProfileResult.java,5\8\5841212892a4e6396dcd4b75f78ecc7582823ebf
 í
 bsrc/test/java/com/automationpractice/wappi/stepdefinitions/SortOffersByCriteriaStepDefinition.java,d\b\db25cff4909d496197695a0e42262c33b362703a
+î
+dsrc/main/java/com/automationpractice/wappi/questions/updateprofile/UpdateProfileFieldsMandatory.java,6\c\6cf7ace12ed9112db4e44fa32d6e5510e0325e8a
+v
+Fsrc/main/java/com/automationpractice/wappi/utils/util/Validations.java,a\f\af8924dd0e31134c225f5b297b8ae1d5b613ed65
